@@ -2,22 +2,27 @@ html {
   margin: 0px auto;
   display: flex;
   justify-content: center;
-  width: 960px;
 }
 
 body {
   display: flex;
   flex-direction: column;
+  align-items: center;
+
   gap: 30px;
 }
 
 header {
   display: flex;
   align-items: center;
-  width: 960px;
+  width: 100vw;
+  justify-content: center;
+  background-color: #808080;
+  padding: 8px 0px;
 }
 
 main {
+  width: 960px;
   display: flex;
   flex-direction: row;
   gap: 30px;
@@ -65,5 +70,10 @@ nav {
 footer {
   height: 140px;
   width: 100%;
-  background-color: #000000;
+  background-color: #808080;
+}
+
+span {
+  display: flex;
+  width: 960px;
 }
