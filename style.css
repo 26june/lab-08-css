@@ -29,7 +29,7 @@ main {
   flex-wrap: wrap;
 }
 
-section {
+article {
   height: 400px;
   width: 450px;
   display: flex;
@@ -73,7 +73,7 @@ footer {
   background-color: #808080;
 }
 
-span {
+section {
   display: flex;
   width: 960px;
 }
